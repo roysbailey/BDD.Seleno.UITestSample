@@ -14,7 +14,7 @@ namespace BDD.Seleno.UITestSample.POMs
         {
             var searchBox = Find.Element(By.Id("SearchViewModel_q"));
             searchBox.SendKeys(searchPhrase);
-            var searchButton = Find.Element(By.Id("search-button"));
+            //var searchButton = Find.Element(By.Id("search-button"));
             return Navigate.To<SearchResultsPageModel>(By.Id("search-button"));
         }
     }

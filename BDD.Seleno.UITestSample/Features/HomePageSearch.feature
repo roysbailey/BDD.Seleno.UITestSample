@@ -10,7 +10,7 @@ Scenario: HomePageSearch - Find plumber when search plumber
 	Given I am on the home page
 	When I click the search profiles link
 	And I search for "plumber"
-	Then the application should see the "plumber" profile in the search resutls
+	Then the application should see the "Plumber" profile in the search resutls
 
 
 Scenario: HomePageSearch - Find Primary school teacher when search Primary school teacher

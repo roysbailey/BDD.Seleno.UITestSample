@@ -7,7 +7,7 @@ namespace BDD.Seleno.UITestSample.POMs
     {
         internal bool HasProfileOnPage(string profileTitle)
         {
-            var profileLink = Find.Element(By.LinkText("Job profiles"));
+            var profileLink = Find.Element(By.LinkText(profileTitle));
             return null != profileLink;
         }
     }

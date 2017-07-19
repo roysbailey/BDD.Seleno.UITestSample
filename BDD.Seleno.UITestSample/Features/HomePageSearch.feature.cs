@@ -89,7 +89,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 12
  testRunner.And("I search for \"plumber\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 13
- testRunner.Then("the application should see the \"plumber\" profile in the search resutls", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the application should see the \"Plumber\" profile in the search resutls", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

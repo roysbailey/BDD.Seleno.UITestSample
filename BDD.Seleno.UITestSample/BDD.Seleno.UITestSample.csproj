@@ -112,12 +112,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
     <None Include="App.config" />
     <None Include="Features\HomePageSearch.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>HomePageSearch.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="chromedriver.exe" />
